@@ -1,0 +1,65 @@
+/* AdDetails.css */
+
+body {
+    background-color: #f4f7f9; /* Couleur de fond de la page */
+    font-family: 'Arial', sans-serif; /* Police moderne */
+}
+
+/* Styles généraux pour le conteneur principal */
+.container {
+    max-width: 800px; /* Limite la largeur de la carte */
+    margin: 40px auto; /* Centre la carte avec un espacement supérieur */
+    padding: 20px; /* Rembourrage autour du contenu */
+    background-color: #ffffff; /* Couleur de fond blanche pour la carte */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Ombre douce autour de la carte */
+}
+
+/* Style de l'en-tête de la carte */
+.card-header {
+    background-color: #007bff; /* Couleur de fond bleue */
+    color: #ffffff; /* Couleur du texte en blanc */
+    text-align: center; /* Centrer le texte */
+    padding: 20px; /* Rembourrage de l'en-tête */
+    border-top-left-radius: 10px; /* Coins arrondis en haut à gauche */
+    border-top-right-radius: 10px; /* Coins arrondis en haut à droite */
+    font-size: 1.5rem; /* Taille de police plus grande pour le titre */
+}
+
+/* Styles du corps de la carte */
+.card-body {
+    padding: 20px; /* Rembourrage pour le corps de la carte */
+    color: #333; /* Couleur du texte dans le corps */
+}
+
+/* Style des paragraphes */
+.card-text {
+    margin-bottom: 15px; /* Espace entre les paragraphes */
+    line-height: 1.6; /* Hauteur de ligne pour aérer le texte */
+}
+
+/* Style des éléments forts */
+strong {
+    color: #007bff; /* Couleur bleue pour les textes en gras */
+}
+
+/* Style des images */
+.card-body img {
+    max-width: 100%; /* Limite la largeur de l'image à 100% */
+    height: auto; /* Conserve le ratio d'aspect de l'image */
+    border-radius: 5px; /* Coins arrondis pour les images */
+}
+
+/* Style pour le message de chargement */
+.spinner-border {
+    width: 3rem; /* Taille du spinner */
+    height: 3rem; /* Taille du spinner */
+}
+
+/* Style pour les erreurs */
+.error-message {
+    color: red; /* Couleur du texte d'erreur */
+    text-align: center; /* Centre le texte d'erreur */
+    margin-top: 20px; /* Espacement supérieur */
+    font-size: 1.2rem; /* Taille de police du message d'erreur */
+}

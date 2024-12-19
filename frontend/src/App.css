@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  background-color: #f0f4f8; /* Couleur de fond plus douce */
+  color: #2c3e50; /* Couleur du texte plus sombre et moderne */
+  font-family: 'Verdana', sans-serif; /* Changement de police */
+}
+
+.App-logo {
+  height: 15vmin; /* Taille du logo réduite pour une meilleure proportion */
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear; /* Vitesse d'animation plus rapide */
+  }
+}
+
+.App-header {
+  background-color: #34495e; /* Couleur de fond plus douce */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin); /* Taille de police augmentée pour plus de lisibilité */
+  color: #ecf0f1; /* Couleur de texte claire */
+  border-bottom: 4px solid #1abc9c; /* Bordure en bas d'un vert aquatique */
+}
+
+.App-link {
+  color: #e74c3c; /* Couleur de lien modifiée à un rouge vif */
+  text-decoration: none; /* Suppression du soulignement */
+  transition: color 0.3s, transform 0.3s; /* Animation de couleur et de transformation */
+}
+
+.App-link:hover {
+  color: #f1c40f; /* Couleur de lien au survol plus lumineuse */
+  transform: scale(1.05); /* Lien agrandi au survol pour un effet dynamique */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

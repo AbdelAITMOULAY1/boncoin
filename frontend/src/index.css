@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif; /* Changement de police pour une police plus simple et lisible */
+  background-color: #f4f4f4; /* Couleur de fond claire */
+  color: #333; /* Couleur du texte par défaut */
+  line-height: 1.6; /* Hauteur de ligne pour une meilleure lisibilité */
+}
+
+code {
+  font-family: 'Courier New', monospace; /* Utilisation d'une police classique pour le code */
+  background-color: #e8e8e8; /* Fond gris clair pour le code */
+  border-radius: 4px; /* Arrondi des coins */
+  padding: 2px 4px; /* Espacement intérieur pour le code */
+  color: #d63384; /* Couleur du texte du code pour le faire ressortir */
+  font-size: 0.95em; /* Légère réduction de la taille de la police pour le code */
+}
